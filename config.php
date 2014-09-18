@@ -10,7 +10,7 @@ $dir = "inc";
 // You can use this array to loop through the values and include the file, like the following code.
 foreach (glob($dir."/*.inc") as $filename)
 {
-    include_once $filename;
+    include $filename;
 }
 
 ?>

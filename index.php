@@ -1,5 +1,4 @@
 <?php include_once 'header.php'; ?>
-<?php include_once 'config.php'; ?>
 <body>
 
     <!-- Static navbar -->
@@ -7,7 +6,10 @@
 	<div class="container-fluid">
 		  <div class="row-fluid">
 			  	<div class="col-sm-9 main">
-			      <?php url_routing(); ?>
+			      <?php 
+			      
+			      url_routing(define_module()); 
+			      ?>
 
 				</div>
 			        <!--Body content-->

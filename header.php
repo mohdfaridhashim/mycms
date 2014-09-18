@@ -1,4 +1,4 @@
-<?php include_once 'inc/global.inc' ?>
+<?php include_once 'config.php'; ?>
 <!DOCTYPE html>
 <head>
 <title><?php echo TITLE ?></title>

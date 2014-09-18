@@ -1,0 +1,27 @@
+/* Custom theme based on bootstrap 
+
+Designed by Mohd Farid Hashim
+*/
+@media (min-width: 1300px) {
+  .container {
+    width: 1300px;
+  }
+
+  /* Supporting marketing content */
+	.marketing {
+	  margin: 40px 0;
+
+   }
+}
+footer {
+  /*padding: 30px 0;*/
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.petak{
+	padding: 10px;
+	border: 1px solid;
+}

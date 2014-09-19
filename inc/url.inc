@@ -23,7 +23,10 @@ function url_routing_old($array)
 	{
 		$file = $dir_module."/".$page_array[$page]."/".$page_array[$page].".php";
 		if (file_exists($file)) {
+
+			ob_start();
 			include_once $file;
+			ob_end_flush(); 
 		}
 		else
 		{

@@ -9,11 +9,11 @@
 			        <!--Body content-->
 			        <!-- featured article -->
 			        <!-- News -->
-					<div class="marketing">
-				        	<div>
+					<div class="panel panel-danger">
+						<div class="panel-body">
 					          <center>
 					          	<h2>OH, oh!</h2>
-					          	
+
 					          </center>
 					        </div>
 				    </div>

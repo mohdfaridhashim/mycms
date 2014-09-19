@@ -6,8 +6,7 @@
 	<div class="container-fluid">
 		  <div class="row-fluid">
 			  	<div class="col-sm-9 main">
-			      <?php 
-			      
+			      <?php
 			      url_routing(define_module()); 
 			      ?>
 

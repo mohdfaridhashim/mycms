@@ -9,7 +9,7 @@
 			      <?php
 			      url_routing(define_module()); 
 
-			      echo user_permission('1');
+			      
 			      ?>
 
 				</div>

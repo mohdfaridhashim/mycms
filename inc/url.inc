@@ -31,6 +31,7 @@ function url_routing_old($array)
 		else
 		{
 			echo "not exist";
+
 		}
 		
 	}
@@ -56,9 +57,11 @@ function url_routing($page)
 	}
 	else
 	{	
+		write_error_log("PAGE Failed: ".$file." \n\n");
 		$page = "error";
 		$file = $dir_module."/".$page."/".$page.".php";
 		include_once $file;
+
 	}
 		
 }

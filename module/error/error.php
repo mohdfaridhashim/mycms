@@ -1,5 +1,3 @@
 <?php
-
-echo "Not found";
-
+include_once 'view/error.php';
 ?>

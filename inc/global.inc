@@ -6,7 +6,7 @@ define("TITLE", "My New CMS");
 define("SERVER", $_SERVER['SERVER_NAME']);
 define("INDEX", "index_1.php");
 define("MODULE_DIR", "module");
-
+define("LIB_DIR", "inc");
 
 
 ?>

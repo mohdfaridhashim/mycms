@@ -13,21 +13,23 @@ $dbname = "newcms";
 $con = mysql_connect($server,$user,$password);
 if(!$con)
 {
-die("connection to database failed".mysql_error());
+	//die("connection to database failed".mysql_error());
+	write_error_log("Query Failed: ". mysql_error() ." CONNECTION:".$con."\n\n");
 }
 
 /* selecting the database "newcms" */
 $dataselect = mysql_select_db($dbname,$con);
 if(!$dataselect)
 {
-die("Database namelist not selected".mysql_error());
+	//die("Database namelist not selected".mysql_error());
+	write_error_log("Query Failed: ". mysql_error() ." DBSELECT:".$dataselect."\n\n");
 }
 
 function sql_query_single($sql){
 	$result =mysql_query($sql);
 	if(!$result)
 	{
-		write_error_log("Query Failed: ". mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." SQL:".$sql."\n\n");
 	}
 	else
 	{
@@ -42,7 +44,7 @@ function sql_query_array($sql){
 	$i = 0;
 	if(!$result)
 	{
-		write_error_log("Query Failed: ". mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." SQL:".$sql."\n\n");
 	}
 	else
 	{
@@ -63,7 +65,7 @@ function sql_query_update($sql){
 	}
 	else
 	{
-		write_error_log("Query Failed: ". mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." SQL:".$sql."\n\n");
 		return 0;
 	}
 	
@@ -77,7 +79,7 @@ function sql_query_insert($sql){
 	}
 	else
 	{
-		write_error_log("Query Failed: ". mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." SQL:".$sql."\n\n");
 		return 0;
 	}
 	

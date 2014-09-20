@@ -8,8 +8,6 @@
 			  	<div class="col-sm-9 main">
 			      <?php
 			      url_routing(define_module()); 
-
-			      
 			      ?>
 
 				</div>

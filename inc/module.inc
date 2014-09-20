@@ -99,6 +99,34 @@ function define_module_combine($request)
 
 	return $page_array[$page];
 }
+
+//sidebar
+function define_module_sidebar()
+{
+
+	$page_array = array();
+
+	//$page_array['0']="content";
+	$page_array['0']="sidebar";
+	// page request based on GET P
+	if(isset($_GET['p']))
+	{
+		$page = $_GET['p'];
+		if(!isset($page_array[$page]))
+		{
+			write_error_log("MODULE Failed: ".$page."\n\n");
+			//$page = '404';
+		}
+	}
+	else
+	{
+		$page = '0';
+	}
+
+	return $page_array[$page];
+}
+
+
 //sidebar right
 function define_module_sidebar_right()
 {
@@ -106,7 +134,7 @@ function define_module_sidebar_right()
 	$page_array = array();
 
 	$page_array['0']="content";
-
+	$page_array['1']="sidebar";
 	// page request based on GET P
 	if(isset($_GET['p']))
 	{

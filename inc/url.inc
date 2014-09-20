@@ -45,7 +45,7 @@ function url_routing_old($array)
 *	no class instance since this is not an oop standard router just a router
 *	If not found error page but also must differ the home page
 */
-function url_routing($page)
+function url_routing($page,$message='')
 {
 
 	// module directory

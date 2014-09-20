@@ -1,4 +1,4 @@
 <?php
-
-include_once 'view/jumbo.php';
+$split = explode("&",$message);
+include 'view/jumbo.php';
 ?>

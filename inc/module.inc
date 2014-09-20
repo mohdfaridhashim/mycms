@@ -79,6 +79,8 @@ function define_module_combine($request)
 
 	//non page index > 1000
 	$page_array['1000']="jumbo";
+	$page_array['1100']="news";
+	$page_array['1200']="gallery";
 	// page request based on GET P
 	if(isset($request))
 	{

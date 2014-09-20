@@ -10,8 +10,12 @@ function define_module()
 	$page_array = array();
 
 	$page_array['0']="content";
+
 	$page_array['404']="error";
 
+
+	//non page index > 1000
+	$page_array['1000']="jumbo";
 	// page request based on GET P
 	if(isset($_GET['p']))
 	{
@@ -31,6 +35,36 @@ function define_module()
 	return $page_array[$page];
 }
 
+function define_module_combine($request)
+{
+
+	$page_array = array();
+
+	$page_array['0']="content";
+
+	$page_array['404']="error";
+
+
+	//non page index > 1000
+	$page_array['1000']="jumbo";
+	// page request based on GET P
+	if(isset($request))
+	{
+		$page = $request;
+		if(!isset($page_array[$page]))
+		{
+			write_error_log("MODULE Failed: ".$page."\n\n");
+			$page = '404';
+
+		}
+	}
+	else
+	{
+		$page = '0';
+	}
+
+	return $page_array[$page];
+}
 //sidebar right
 function define_module_sidebar_right()
 {

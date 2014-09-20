@@ -72,9 +72,9 @@ function define_module_combine($request)
 
 	$page_array = array();
 
-	$page_array['0']="content";
+	//$page_array['0']="content";
 
-	$page_array['404']="error";
+	//$page_array['404']="error";
 
 
 	//non page index > 1000

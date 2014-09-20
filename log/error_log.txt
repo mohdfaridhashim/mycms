@@ -51,10 +51,6 @@ Query Failed: You have an error in your SQL syntax; check the manual that corres
 
 Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/master
 Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
 
 Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
@@ -65,8 +61,3 @@ Query Failed: You have an error in your SQL syntax; check the manual that corres
 
 Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/master
->>>>>>> origin/master

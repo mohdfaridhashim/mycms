@@ -13,12 +13,12 @@ function user_permission($userid)
 			if($total == 110)
 			{
 				//read and write
-				return 1;
+				return 110;
 			}
 			else if($total == 1110)
 			{
 				//read and write and approved (admin)
-				return 2;
+				return 1110;
 			}
 
 	}

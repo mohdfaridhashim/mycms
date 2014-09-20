@@ -53,7 +53,7 @@ function url_routing($page,$message='')
 
 	$file = $dir_module."/".$page."/".$page.".php";
 	if (file_exists($file)) {
-		include_once $file;
+		include $file;
 	}
 	else
 	{	

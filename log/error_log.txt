@@ -93,3 +93,157 @@ MODULE Failed: 5
 
 2014-09-21 02:08:49pm : MODULE Failed: 5
 
+2014-09-21 05:36:15pm : MODULE Failed: 1
+
+2014-09-21 05:36:16pm : MODULE Failed: 1
+
+2014-09-21 05:36:17pm : MODULE Failed: 1
+
+2014-09-21 05:36:18pm : MODULE Failed: 1
+
+2014-09-21 05:36:19pm : MODULE Failed: 1
+
+2014-09-21 05:36:20pm : MODULE Failed: 1
+
+2014-09-21 05:36:21pm : MODULE Failed: 1
+
+2014-09-21 05:36:22pm : MODULE Failed: 1
+
+2014-09-21 05:36:23pm : MODULE Failed: 1
+
+2014-09-21 05:36:24pm : MODULE Failed: 1
+
+2014-09-21 05:36:25pm : MODULE Failed: 1
+
+2014-09-21 05:36:26pm : MODULE Failed: 1
+
+2014-09-21 05:36:27pm : MODULE Failed: 1
+
+2014-09-21 05:36:28pm : MODULE Failed: 1
+
+2014-09-21 05:36:29pm : MODULE Failed: 1
+
+2014-09-21 05:36:30pm : MODULE Failed: 1
+
+2014-09-21 05:36:31pm : MODULE Failed: 1
+
+2014-09-21 05:36:33pm : MODULE Failed: 1
+
+2014-09-21 05:36:34pm : MODULE Failed: 1
+
+2014-09-21 05:36:35pm : MODULE Failed: 1
+
+2014-09-21 05:36:36pm : MODULE Failed: 1
+
+2014-09-21 05:36:37pm : MODULE Failed: 1
+
+2014-09-21 05:36:38pm : MODULE Failed: 1
+
+2014-09-21 05:36:39pm : MODULE Failed: 1
+
+2014-09-21 05:36:40pm : MODULE Failed: 1
+
+2014-09-21 05:36:41pm : MODULE Failed: 1
+
+2014-09-21 05:36:42pm : MODULE Failed: 1
+
+2014-09-21 05:36:43pm : MODULE Failed: 1
+
+2014-09-21 05:36:44pm : MODULE Failed: 1
+
+2014-09-21 05:36:45pm : MODULE Failed: 1
+
+2014-09-21 05:36:46pm : MODULE Failed: 1
+
+2014-09-21 05:36:47pm : MODULE Failed: 1
+
+2014-09-21 05:36:48pm : MODULE Failed: 1
+
+2014-09-21 05:36:54pm : MODULE Failed: 1
+
+2014-09-21 05:36:55pm : MODULE Failed: 1
+
+2014-09-21 05:36:56pm : MODULE Failed: 1
+
+2014-09-21 05:36:57pm : MODULE Failed: 1
+
+2014-09-21 05:36:58pm : MODULE Failed: 1
+
+2014-09-21 05:36:59pm : MODULE Failed: 1
+
+2014-09-21 05:37:00pm : MODULE Failed: 1
+
+2014-09-21 05:37:01pm : MODULE Failed: 1
+
+2014-09-21 05:37:02pm : MODULE Failed: 1
+
+2014-09-21 05:37:03pm : MODULE Failed: 1
+
+2014-09-21 05:37:04pm : MODULE Failed: 1
+
+2014-09-21 05:37:05pm : MODULE Failed: 1
+
+2014-09-21 05:37:06pm : MODULE Failed: 1
+
+2014-09-21 05:37:07pm : MODULE Failed: 1
+
+2014-09-21 05:37:08pm : MODULE Failed: 1
+
+2014-09-21 05:37:09pm : MODULE Failed: 1
+
+2014-09-21 05:37:10pm : MODULE Failed: 1
+
+2014-09-21 05:37:12pm : MODULE Failed: 1
+
+2014-09-21 05:37:13pm : MODULE Failed: 1
+
+2014-09-21 05:37:14pm : MODULE Failed: 1
+
+2014-09-21 05:37:15pm : MODULE Failed: 1
+
+2014-09-21 05:37:54pm : MODULE Failed: 1
+
+2014-09-21 05:37:54pm : MODULE Failed: 1
+
+2014-09-21 05:38:01pm : MODULE Failed: 1
+
+2014-09-21 05:38:01pm : MODULE Failed: 1
+
+2014-09-21 05:38:29pm : MODULE Failed: 1
+
+2014-09-21 05:38:29pm : MODULE Failed: 1
+
+2014-09-21 05:38:31pm : MODULE Failed: 1
+
+2014-09-21 05:38:31pm : MODULE Failed: 1
+
+2014-09-21 05:38:46pm : MODULE Failed: 1
+
+2014-09-21 05:38:46pm : MODULE Failed: 1
+
+2014-09-21 05:39:51pm : Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
+
+2014-09-21 05:39:52pm : MODULE Failed: 1
+
+2014-09-21 05:39:52pm : MODULE Failed: 1
+
+2014-09-21 05:39:59pm : Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
+
+2014-09-21 05:40:00pm : MODULE Failed: 1
+
+2014-09-21 05:40:00pm : MODULE Failed: 1
+
+2014-09-21 05:49:29pm : Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
+
+2014-09-21 05:49:30pm : MODULE Failed: 1
+
+2014-09-21 05:49:30pm : MODULE Failed: 1
+
+2014-09-21 05:49:41pm : Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
+
+2014-09-21 05:49:41pm : Query Failed: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'write,read,approved from permission where userid = '1' at line 1 SQL:select userid,write,read,approved from permission where userid = '1
+
+2014-09-21 05:49:42pm : MODULE Failed: 1
+
+2014-09-21 05:49:42pm : MODULE Failed: 1
+

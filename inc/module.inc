@@ -20,7 +20,7 @@ function define_module()
 		$page = $_GET['p'];
 		if(!isset($page_array[$page]))
 		{
-			write_error_log("MODULE Failed: ".$page."\n\n");
+			write_error_log("Page Module Failed: ".$page."\n\n");
 			$page = '404';
 
 		}
@@ -83,7 +83,7 @@ function define_module_sidebar()
 		$page = $_GET['p'];
 		if(!isset($page_array[$page]))
 		{
-			write_error_log("MODULE Failed: ".$page."\n\n");
+			write_error_log("MODULE sidebar Failed: ".$page."\n\n");
 			//$page = '404';
 			$page = '0';
 		}

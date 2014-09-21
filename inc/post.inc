@@ -7,7 +7,7 @@
 	
 */
 
-function POST($key_function)
+function validate_POST($key_function)
 {
 	foreach ($_POST as $key => $value) {
   	//print "{$key}: {$value}<br />";

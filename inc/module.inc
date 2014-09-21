@@ -6,10 +6,11 @@
 //body
 function define_module()
 {
-	
+
 	$page_array = array();
 
 	$page_array['0']="content";
+	$page_array['1']="register";
 	$page_array['1000']="logout";
 	$page_array['404']="error";
 

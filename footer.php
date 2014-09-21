@@ -1,5 +1,5 @@
 <footer>
-        			<p> Copyright @ 2011 - All Rights Reserved</p>
+        			<p> Copyright @ <?=date('Y'); ?> - All Rights Reserved</p>
       			</footer>
 	     <!-- Bootstrap core JavaScript
     ================================================== -->

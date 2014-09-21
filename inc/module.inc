@@ -116,6 +116,7 @@ function define_module_sidebar()
 		{
 			write_error_log("MODULE Failed: ".$page."\n\n");
 			//$page = '404';
+			$page = '0';
 		}
 	}
 	else

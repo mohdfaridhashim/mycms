@@ -6,24 +6,30 @@
 	username : root
 	password : 
 */
-$server = "localhost";
-$user = "root";
-$password = "";
-$dbname = "newcms";
-$con = mysql_connect($server,$user,$password);
-if(!$con)
+
+function connection()
 {
-	//die("connection to database failed".mysql_error());
-	write_error_log("Query Failed: ". mysql_error() ." CONNECTION:".$con."\n\n");
+	$server = "localhost";
+	$user = "root";
+	$password = "";
+	$dbname = "newcms";
+
+	$con = mysql_connect($server,$user,$password);
+	if(!$con)
+	{
+		//die("connection to database failed".mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." CONNECTION:".$con."\n\n");
+	}
+
+	/* selecting the database "newcms" */
+	$dataselect = mysql_select_db($dbname,$con);
+	if(!$dataselect)
+	{
+		//die("Database namelist not selected".mysql_error());
+		write_error_log("Query Failed: ". mysql_error() ." DBSELECT:".$dataselect."\n\n");
+	}
 }
 
-/* selecting the database "newcms" */
-$dataselect = mysql_select_db($dbname,$con);
-if(!$dataselect)
-{
-	//die("Database namelist not selected".mysql_error());
-	write_error_log("Query Failed: ". mysql_error() ." DBSELECT:".$dataselect."\n\n");
-}
 
 function sql_query_single($sql){
 	$result =mysql_query($sql);

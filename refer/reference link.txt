@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/3362207/php-and-ajax-security-question

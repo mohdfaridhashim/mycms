@@ -8,7 +8,7 @@ $module_array = array();
 	$module_array['0']="content";
 	$module_array['1']="register";
 
-	
+	$module_array['2']="news";
 	$module_array['9']="logout";
 
 	$module_array['404']="error";

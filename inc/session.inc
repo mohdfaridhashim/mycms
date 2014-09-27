@@ -33,3 +33,14 @@ function complete_destroy()
 {
 	session_destroy();
 }
+
+function set_token()
+{
+	$token = md5(Generate_ID());
+	$_SESSION['token'] = $token;	
+}
+
+function get_token()
+{
+	return $_SESSION['token'];
+}

@@ -1,18 +1,14 @@
 <?php
 /*
-*	module array
+*	module
 */
 
 //body
 function define_module()
 {
-
+	include 'array_module.inc';
 	$page_array = array();
-
-	$page_array['0']="content";
-	$page_array['1']="register";
-	$page_array['1000']="logout";
-	$page_array['404']="error";
+	$page_array = $module_array;
 
 	// page request based on GET P
 	if(isset($_GET['p']))
@@ -35,7 +31,7 @@ function define_module()
 
 
 
-
+//non page index > 1000
 function define_module_combine($request)
 {
 
@@ -44,11 +40,7 @@ function define_module_combine($request)
 	include 'array_module.inc';
 	$page_array = $shared_module_array;
 
-	//non page index > 1000
-	//$page_array['1000']="jumbo";
-	//$page_array['1100']="news";
-	//$page_array['1200']="gallery";
-	// page request based on GET P
+	
 	if(isset($request))
 	{
 		$page = $request;

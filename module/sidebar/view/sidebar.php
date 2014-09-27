@@ -8,7 +8,8 @@
 				            <li class="list-group-item active">Coffee</li>
 				            <a href="index.php" class="list-group-item">Home</a>            
 				            <a href="index.php?p=1" class="list-group-item">Register</a>
-				            <a href="index.php?p=1000" class="list-group-item">Logout</a>				            
-				            <a href="http://getbootstrap.com/examples/offcanvas/#" class="list-group-item">Link</a>
+				            <a href="index.php?p=2" class="list-group-item">News</a>
+				            <a href="index.php?p=9" class="list-group-item">Logout</a>				            
+				            
 				          </ul>
 			        	</div><!--/span-->

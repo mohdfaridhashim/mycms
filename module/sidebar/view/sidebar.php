@@ -2,6 +2,7 @@
 				            <h4>About</h4>
 				            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
 				        </div>
+				        <?php url_routing(define_module_combine('1005')); ?>
 				        <div role="navigation">
 			              <ul class="list-group">
 				            <li class="list-group-item active">Coffee</li>

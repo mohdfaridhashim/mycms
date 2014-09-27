@@ -22,6 +22,7 @@ $shared_module_array = array();
 	$shared_module_array['1002']="news";
 	$shared_module_array['1003']="gallery";
 	$shared_module_array['1004']="panel";
+	$shared_module_array['1005']="search";
 
 
 

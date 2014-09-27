@@ -6,12 +6,10 @@
 	<div class="container-fluid">
 		  <div class="row-fluid">
 			  	<div class="col-sm-9 main">
-			  		 <div class="marketing">
-					      <?php
-					      url_routing(define_module()); 
-					      
-					      ?>
-				  	</div>
+			      <?php
+			      movepage("index.php?p=1");
+			      
+			      ?>
 
 				</div>
 			        <!--Body content-->

@@ -4,12 +4,13 @@
 
 
 
-		url_routing(define_module_combine('1000'),TITLE."&Welcome to my humble Page.");
+		url_routing(define_module_combine('1001'),TITLE."&Welcome to my humble Page.");
 		//echo $page;
 		include_once 'view/content.php';
-		url_routing(define_module_combine('1100'));
-		url_routing(define_module_combine('1200'));
-		url_routing(define_module_combine('1100'));
+		//url_routing(define_module_combine('1004'),"Rock N Roll");
+		url_routing(define_module_combine('1002'));
+		url_routing(define_module_combine('1004'),"Rock N Roll");
+		url_routing(define_module_combine('1003'));
 		//echo Generate_ID();
 	
 	

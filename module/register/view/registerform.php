@@ -17,14 +17,31 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    <label for="InputPass">Enter Password</label>
+                    <label for="InputEmail">Confirm Email</label>
                     <div class="input-group">
-                        <input type="password" class="form-control" name="InputPass" id="InputPass" placeholder="Enter Password" required>
+                        <input type="email" class="form-control" id="InputEmailSecond" name="InputEmail" placeholder="Confirm Email" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="InputMessage">Enter Message</label>
+                    <div class="input-group">
+                        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
                         <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
                     </div>
                 </div>
                 <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right">
             </div>
         </form>
+        <div class="col-lg-5 col-md-push-1">
+            <div class="col-md-12">
+                <div class="alert alert-success">
+                    <strong><span class="glyphicon glyphicon-ok"></span> Success! Message sent.</strong>
+                </div>
+                <div class="alert alert-danger">
+                    <span class="glyphicon glyphicon-remove"></span><strong> Error! Please check all page inputs.</strong>
+                </div>
+            </div>
+        </div>
     </div>
     <hr>

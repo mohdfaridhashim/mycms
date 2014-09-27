@@ -26,7 +26,8 @@ function url_routing_old($array)
 
 			ob_start();
 			include_once $file;
-			ob_end_flush(); 
+			ob_get_contents();
+			ob_end_clean();
 		}
 		else
 		{

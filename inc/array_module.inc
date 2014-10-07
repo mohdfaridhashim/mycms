@@ -12,6 +12,7 @@ $module_array = array();
 	$module_array['9']="logout";
 
 	$module_array['404']="error";
+	$module_array['9000']="websocket";
 
 
 
@@ -23,6 +24,7 @@ $shared_module_array = array();
 	$shared_module_array['1003']="gallery";
 	$shared_module_array['1004']="panel";
 	$shared_module_array['1005']="search";
+	$shared_module_array['1006']="carousel";
 
 
 
